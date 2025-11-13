@@ -1,0 +1,44 @@
+.question { 
+    margin-bottom: 24px; 
+}
+
+.options label { 
+    display: block; 
+    margin: 4px 0; 
+}
+
+.btn { 
+    padding: 10px 18px; 
+    border-radius: 8px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+.btn-primary { 
+    background:#4b8df8; 
+    color:#fff; 
+}
+
+.hidden { 
+    display:none; 
+}
+
+.bar-row {
+    display:flex;
+    align-items:center;
+    margin:4px 0;
+}
+
+.bar-label {
+    width:40px;
+}
+
+.bar {
+    height:16px;
+    background:#4b8df8;
+}
+
+.bar-value {
+    margin-left:8px;
+    font-size:0.9em;
+}

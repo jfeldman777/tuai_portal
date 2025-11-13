@@ -18,3 +18,12 @@ h1{margin:0 0 8px 0;font-size:28px}h2{margin:0 0 12px 0;font-size:22px}.muted{co
 .modal{background:var(--card);border:1px solid var(--border);border-radius:16px;max-width:640px;padding:18px 20px;box-shadow:var(--shadow)}
 .modal h4{margin:0 0 8px 0}.modal p{margin:8px 0}.modal .close{margin-top:12px}
 .header-bar{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}.header-bar .brand{font-weight:700;letter-spacing:.3px}
+/* Меню в правом верхнем углу */
+nav a, .menu a, .top-menu a {
+    color: #ffffff !important;     /* белый текст */
+    font-weight: 500;
+}
+
+nav a:hover, .menu a:hover, .top-menu a:hover {
+    color: #ffd700 !important;     /* золотой при наведении */
+}

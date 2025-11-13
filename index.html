@@ -1,0 +1,52 @@
+<!doctype html><html lang="ru"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ТУАИ • 2025 • Короткий тест</title>
+<link rel="stylesheet" href="assets/style.css"></head><body>
+<main class="container">
+<header class="card">
+  <div class="header-bar">
+    <div class="brand">ТУАИ • 2025</div>
+    <nav>
+      <a href="./">Короткий тест</a> ·
+      <a href="./test2/">Расширенный</a> ·
+      <a href="./warming-up/">Warming‑up</a> ·
+      <a href="./coding/">Encoding</a>
+    </nav>
+  </div>
+  <h1>Короткий тест «Уровень мышления»</h1>
+  <p class="muted">10 вопросов. Без подсказок. Результат — доминирующий стиль и ближайшие шаги.</p>
+</header>
+
+<section id="quiz" class="card"></section>
+
+<nav class="controls">
+  <button id="prevBtn" class="btn" disabled>Назад</button>
+  <button id="nextBtn" class="btn primary">Дальше</button>
+  <button id="finishBtn" class="btn success" style="display:none">Готово</button>
+</nav>
+
+<section id="result" class="card" style="display:none">
+  <h2>Результат</h2>
+  <div id="summary"></div>
+  <div class="controls">
+    <a class="btn" href="./test2/">Пройти расширенный тест (32 вопроса)</a>
+  </div>
+</section>
+
+<footer class="footer"><span>© ТУАИ *</span><a data-open-copyright>авторство и условия</a></footer>
+</main>
+
+<div id="copyright-backdrop" class="modal-backdrop">
+  <div class="modal">
+    <h4>Теория Уровней Абстрактного Интеллекта (ТУАИ)</h4>
+    <p>Авторская концепция (Яков Фельдман, 1989 – наше время).</p>
+    <p>Разработана для анализа эволюции сознания, мышления и социальных структур.
+    Материалы защищены авторским правом. Использование допускается с указанием источника.</p>
+    <button id="copyright-close" class="btn close">Закрыть</button>
+  </div>
+</div>
+
+<script src="assets/footer.js"></script>
+<script src="short_questions.js"></script>
+<script src="short_app.js"></script>
+</body></html>
